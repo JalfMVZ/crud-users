@@ -1,5 +1,5 @@
 User Management API
-Esta API, construida con Spring Boot, gestiona usuarios con operaciones CRUD (Crear, Leer, Actualizar, Eliminar) y usa una base de datos H2 en memoria
+Esta API, construida con Spring Boot, gestiona usuarios con operaciones CRUD (GET, Delete,Update,POST) y usa una base de datos H2 en memoria
 
 Endpoints:
 
