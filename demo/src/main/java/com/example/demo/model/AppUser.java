@@ -12,12 +12,11 @@ public class AppUser {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     
-    private String name; // Asegúrate de que este campo está en el modelo
-    private String email; // Asegúrate de que este campo está en el modelo
+    private String name; 
+    private String email; 
     private String username;
     private String password;
 
-    // Getters and setters
     public Long getId() {
         return id;
     }

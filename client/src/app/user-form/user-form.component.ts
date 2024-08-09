@@ -10,7 +10,7 @@ import { UserService } from '../services/userService';
 export class UserFormComponent implements OnInit {
   user: any = { name: '', email: '', username: '', password: '' };
   isEdit = false;
-  passwordFieldType: string = 'password';  // Inicialmente oculto
+  passwordFieldType: string = 'password';  
 
   constructor(
     private userService: UserService,
