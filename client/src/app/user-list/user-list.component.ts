@@ -16,8 +16,8 @@ export class UserListComponent implements OnInit {
   }
 
   loadUsers(): void {
-    this.userService.getAllUsers().subscribe(data => {
-      this.users = data;
+    this.userService.getAllUsers().subscribe(response => {
+      this.users = response.data; 
     });
   }
 

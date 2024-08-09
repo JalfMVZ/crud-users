@@ -69,5 +69,9 @@ button[type="button"]:hover {
   width: 100%;
 }
 
-
+.error-message {
+  color: red;
+  margin-top: 10px;
+  font-weight: bold;
+}
 
